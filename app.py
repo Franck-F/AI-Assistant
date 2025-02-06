@@ -1,4 +1,3 @@
-pip install -r requirement.txt
 from aiohttp import client
 import openai
 import streamlit as st
