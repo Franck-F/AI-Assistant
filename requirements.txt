@@ -1,0 +1,6 @@
+streamlit
+openai
+arxiv
+python-dotenv
+aiohttp
+requests
