@@ -1,4 +1,4 @@
-from aiohttp import client
+#from aiohttp import client
 import openai
 import streamlit as st
 import time
@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 import os
 import re
 from PIL import Image
-#import cv2
 # Charger le fichier .env contenant la clé API
 #load_dotenv()
 #openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -23,7 +22,7 @@ if "thread_id" not in st.session_state:
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-st.set_page_config(page_title="Bac2Futur", page_icon=":book:", layout="wide")
+st.set_page_config(page_title="Bac2MyFuture", page_icon=":book:", layout="wide")
 
 # Fonction pour nettoyer la réponse de l'IA
 def clean_response(response):
