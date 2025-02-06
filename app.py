@@ -8,9 +8,9 @@ import os
 import re
 from PIL import Image
 # Charger le fichier .env contenant la clé API
-#load_dotenv()
-#openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = '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'
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
+#openai.api_key = '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'
 bac2futur_id = "aasst_RR0sWP4WKBLnDY17pywAUFbLs"
 client = openai
 
