@@ -11,7 +11,7 @@ from PIL import Image
 # Charger le fichier .env contenant la clé API
 #load_dotenv()
 #openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = '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'
+openai.api_key = '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'
 bac2futur_id = "aasst_RR0sWP4WKBLnDY17pywAUFbLs"
 client = openai
 
