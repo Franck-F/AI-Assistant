@@ -1,20 +1,73 @@
-## Groupe :
+# Bac2Futur - Assistant d'Orientation Intelligent
 
-*** Frank-Dilane FAMBOU**
-*** Luana GUALDI** 
-*** Claude-Christian LETEMBET-AMBILY** 
-*** Djouhra  OULD-YOUNES** 
-*** Fatoumata SARR**
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![Streamlit](https://img.shields.io/badge/streamlit-v1.30+-FF4B4B.svg)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991.svg)
 
-# Thème choisi : 
-***Formation et orientation professionnelle :*** ​
-*Un chatbot qui guiderait les étudiants dans leur orientation professionnelle et/ou leurs choix de carrière. ​
-Qui leur permettrait d’analyser des offres de formation, offres d’emploi etc. pour les aider à rédiger leur lettre de motivation, projet de formation motivé (pour Parcoursup), tenir à jour un journal de candidatures etc. 
+Bac2Futur est un assistant intelligent conçu pour accompagner les étudiants et les professionnels dans leur parcours d'orientation scolaire et professionnelle. S'appuyant sur l'architecture GPT-4o, il offre une interface moderne et intuitive pour simplifier la recherche de formations et la préparation des candidatures stratégiques.
 
-# Données :
-*** sur les formations : catalogues de formations disponibles, conditions d'admission, RNCP ***
-*** sur les métiers & les débouchées professionnelles : guide pour l'orientation professionnelle, guide après le bac, choisir une formation post-bac, comment faire des études dans d'autres pays européens... ***
-*** sur les offres d'emploi & de stages : liste des offres d'emploi France travail & région IDF ***
-*** sur la rédaction de lettre de motivation/de projet de motivation : guide de rédaction lettre de motivation, guide de rédaction projet motivation ***
-*** sur le suivi de candidature : mémo parcoursup... ***
-*** sur la législation encadrant l'alternance/le stage : fiches pratiques service public ***
+---
+
+## Architecture et Design
+
+![Bac2Futur Interface Mockup](bac2futur_mockup.png)
+*Interface logicielle optimisée : Glassmorphism, Dark Mode et assistance interactive.*
+
+---
+
+## Fonctionnalités Principales
+
+- **Orientation Stratégique** : Analyse des parcours académiques en fonction des objectifs professionnels.
+- **Support à la Candidature** : Aide méthodologique pour la rédaction de lettres de motivation et projets motivés Parcoursup.
+- **Analyse de Formations** : Exploration des catalogues RNCP, conditions d'admission et débouchés.
+- **Veille Professionnelle** : Informations structurées sur le marché de l'emploi, les stages et l'alternance.
+- **Cadre Réglementaire** : Accès aux fiches pratiques sur la législation des contrats et des stages.
+
+---
+
+## Équipe Projet
+
+- **Frank-Dilane FAMBOU**
+- **Luana GUALDI**
+- **Claude-Christian LETEMBET-AMBILY**
+- **Djouhra OULD-YOUNES**
+- **Fatoumata SARR**
+
+---
+
+## Installation et Déploiement
+
+1. **Clonage du Dépôt** :
+
+   ```bash
+   git clone https://github.com/Franck-F/AI-Assistant.git
+   cd AI-Assistant
+   ```
+
+2. **Configuration de l'Environnement** :
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Paramétrage API** :
+   Créez un fichier `.env` à la racine :
+
+   ```env
+   OPENAI_API_KEY=votre_cle_api
+   ```
+
+4. **Lancement de l'Application** :
+
+   ```bash
+   python -m streamlit run app.py
+   ```
+
+---
+
+## Sources de Données
+
+- **Référentiels Formations** : Catalogues RNCP et bases de données publiques de l'enseignement supérieur.
+- **Ressources Métiers** : Guides d'orientation post-bac et référentiels européens.
+- **Technologie** : Interface développée sous Streamlit pour une performance et une réactivité optimales.
