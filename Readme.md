@@ -7,12 +7,12 @@
 
 Bac2Futur est un assistant intelligent conçu pour accompagner les étudiants et les professionnels dans leur parcours d'orientation scolaire et professionnelle. S'appuyant sur l'architecture GPT-4o, il offre une interface moderne et intuitive pour simplifier la recherche de formations et la préparation des candidatures stratégiques.
 
----
-
 ## Architecture et Design
 
-![Bac2Futur Interface Mockup](bac2futur_mockup.png)
-*Interface logicielle optimisée : Glassmorphism, Dark Mode et assistance interactive.*
+<div align="center">
+  <img src="B2MF_v4.svg" width="300" alt="Bac2Futur Logo">
+  <p><i>Identité visuelle et interface logicielle optimisée (Glassmorphism, Dark Mode).</i></p>
+</div>
 
 ---
 
