@@ -117,18 +117,10 @@ with st.sidebar:
     try:
         st.image("B2MF_v4.svg", width=140)
     except:
-        st.title("Bac2Futur")
+        st.title("Bac2 my Future")
     
     st.markdown("<br>", unsafe_allow_html=True)
-    st.markdown("### Équipe")
-    st.info("""
-    Frank-Dilane FAMBOU  
-    Luana GUALDI  
-    Claude-Christian LETEMBET-AMBILY  
-    Djouhra OULD-YOUNES  
-    Fatoumata SARR
-    """)
-    
+       
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("### Suggestions")
     suggestions = [
@@ -148,14 +140,14 @@ with st.sidebar:
         st.rerun()
 
 # --- MAIN CONTENT ---
-st.title("Bac2Futur")
+st.title("Bac 2 my Future")
 st.markdown("##### Expert digital pour votre orientation stratégique.")
 
 # Instructions initiales si pas de messages
 if not st.session_state.messages:
     st.markdown("""
     <div style="background: rgba(30, 41, 59, 0.4); padding: 2.5rem; border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.05); margin-top: 2rem;">
-        <h2 style="color: #F8FAFC; margin-top: 0;">Bienvenue sur Bac2Futur</h2>
+        <h2 style="color: #F8FAFC; margin-top: 0;">Bienvenue sur Bac2 my Future</h2>
         <p style="color: #94A3B8; font-size: 1.1rem;">L'assistant intelligent dédié à l'accompagnement de vos parcours académiques et professionnels.</p>
         <div style="margin-top: 1.5rem;">
             <p style="color: #64748B; font-weight: 600; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.05em;">Capabilities</p>
